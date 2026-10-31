@@ -1,0 +1,9 @@
+{
+    "kb": [
+        [["ANCESTOR", "?x", "?y"], ["PARENT", "?z", "?y"], ["ANCESTOR", "?x", "?z"]],
+        [["ANCESTOR", "?x", "?y"], ["PARENT",   "?x", "?y"]],
+        [["PARENT", "MARY", "PAUL"]],
+        [["PARENT", "SUE",  "MARY"]]
+    ],
+    "goal": [["ANCESTOR", "?x", "?y"]]
+}

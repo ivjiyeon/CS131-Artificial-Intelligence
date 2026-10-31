@@ -1,0 +1,14 @@
+{
+    "kb": [
+        [["SIMPLE_SENTENCE", "?x", "?y", "?z", "?u", "?v"], ["NOUN_PHRASE", "?x", "?y"], ["VERB_PHRASE", "?z", "?u", "?v"]],
+        [["NOUN_PHRASE",     "?x", "?y"],                   ["ARTICLE",     "?x"],        ["NOUN",        "?y"]],
+        [["VERB_PHRASE",     "?x", "?y", "?z"],              ["VERB",        "?x"],        ["NOUN_PHRASE", "?y", "?z"]],
+        [["ARTICLE", "A"]],
+        [["ARTICLE", "THE"]],
+        [["NOUN",    "MAN"]],
+        [["NOUN",    "DOG"]],
+        [["VERB",    "LIKES"]],
+        [["VERB",    "BITES"]]
+    ],
+    "goal": [["SIMPLE_SENTENCE", "?a", "?b", "?c", "?d", "?e"]]
+}

@@ -1,0 +1,14 @@
+{
+    "kb": [
+        [["AUNT",   "?x", "?y"], 
+            ["SISTER", "?x", "?z"], ["MOTHER", "?z", "?y"]],
+        [["AUNT",   "?x", "?y"], 
+            ["SISTER", "?x", "?z"], ["FATHER", "?z", "?y"]],
+            
+        [["SISTER", "MARY", "SUE"]],
+        [["SISTER", "MARY", "DOUG"]],
+        [["FATHER", "DOUG", "JOHN"]],
+        [["MOTHER", "SUE",  "PAUL"]]
+    ],
+    "goal": [["AUNT", "?x", "?y"]]
+}

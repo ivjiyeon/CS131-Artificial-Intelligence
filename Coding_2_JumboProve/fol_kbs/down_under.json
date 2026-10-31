@@ -1,0 +1,26 @@
+{
+    "kb" : [
+        [["DIFF", "RED", "BLUE"]],
+        [["DIFF", "RED", "GREEN"]],
+        [["DIFF", "GREEN", "RED"]],
+        [["DIFF", "GREEN", "BLUE"]],
+        [["DIFF", "BLUE", "RED"]],
+        [["DIFF", "BLUE", "GREEN"]]
+    ],
+
+    "goal": [
+        ["DIFF", "?wa", "?nt"],
+        ["DIFF", "?wa", "?sa"],
+        
+        ["DIFF", "?nt", "?q"],
+        ["DIFF", "?nt", "?sa"],
+
+        ["DIFF", "?q", "?nsw"],
+        ["DIFF", "?q", "?sa"],
+
+        ["DIFF", "?nsw", "?v"],
+        ["DIFF", "?nsw", "?sa"],
+
+        ["DIFF", "?v", "?sa"]
+    ]
+}

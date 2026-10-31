@@ -1,0 +1,13 @@
+{
+    "kb" : [
+        [
+            ["GRANDPARENT", "?x","?y"],
+                ["PARENT", "?x", "?z"], ["PARENT", "?z", "?y"]
+        ],
+        [["PARENT", "BRIAN", "DOUG"]],
+        [["PARENT", "DOUG", "MARY"]],
+        [["PARENT", "MARY", "SUE"]]
+    ],
+
+    "goal": [["GRANDPARENT", "?x", "?y"]]
+}
